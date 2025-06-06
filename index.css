@@ -1,0 +1,66 @@
+/*
+actividad.css
+Aquí podras visualizar las reglas de css de nuestra index.html llamada "cajas flotantes" yeah!
+*/
+
+body{
+	color:white;
+}
+
+h1{
+	color: black;
+	text-align:center;
+}
+
+div{
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+	padding: 30px;
+	text-align: center;
+	border-radius: 40px;
+	
+}
+
+#cajaCeleste{
+	background-color: skyblue;
+	/*float: left;*/
+	clear: both;
+	width: 100%;
+} 
+
+#cajaAzul{
+	background-color: teal;
+	float: right;
+	img{ 
+	    width:100%;
+		height: 100px;
+		}
+		
+} 
+
+#cajaRosahot{
+	background-color: hotpink;
+	float: left;
+	img{ 
+	    width:100%;
+		height: 100px;
+		}
+} 
+
+#cajaTurquesa{
+	background-color: turquoise;
+	float: right;
+} 
+
+#cajaSalmon{
+	background-color: salmon;
+	float: left;
+} 
+
+#cajaRosa{
+	background-color: pink;
+	/*float: right;*/
+	clear: both;
+	width: 100%;
+} 
